@@ -1,0 +1,61 @@
+/*
+Color Pallet from Coolors
+{"Xiketic":"1a1423",
+"Dark Purple":"372549",
+"Twilight Lavender":"774c60",
+"Popstar":"b75d69",
+"Champagne Pink":"eacdc2"}
+*/
+
+/* MAKE SURE YOU USE SOME DIFFERENT FONTS */
+
+body header p{
+  font-size: 40px;
+}
+
+nav{
+  text-align: right;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1, h2{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;  
+}
+
+h3{
+  text-align: center;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+body{
+  background-color:
+}
+
+
+
+ol, ul{
+  width: 50px;
+  display: table;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  height: 75px;
+  background-color: #b75d69;
+
+}
+
+header p{
+  margin: 10px;
+  padding: 10px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
