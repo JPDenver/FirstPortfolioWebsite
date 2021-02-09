@@ -4,43 +4,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Jeff's First Profile Website</title>
+    <!-- Link to Normalize -->
     <link
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     rel="stylesheet"
     type="text/css"/>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-<!--
-  Use Bold text or some sort of styling
-  hobbies as an unorderd list
-  ordered list of 
-
-  -->
 
 
-
-
+  <!-- This is where the actual content on the page begins -->
   <body>
     <header>
       <p>Jeffrey Fager</p>
       <nav>
-        <!-- Hyperlink and style on the upper right -->
+        <!-- Hyperlink contacts on the upper right -->
+        Contact:
         <a href = 'https://www.linkedin.com/in/jeffrey-paul-5802631b6'>LinkedIn</a>
         <a href = 'https://github.com/JPDenver'>GitHub</a>
       </nav>
     </header>
 
-    <hr>
     <main>
-      
+      <!-- This is the main intro with the image and brief introduction -->
       <h1>Software Engineer</h1>
-      
+      <!-- Photo is located in local directory -->
       <img src = "Portfolio Photo.jpg" width="200">
-
+      <div>
+      <p>My name is Jeff and I live in Denver, Colorado.</p>
+      </div>
       <hr>
-
-      <h2>About Me</h2>      
-      
+      <!-- This is the more detailed about me section -->
+      <article>
+      <h2>About Me</h2>   
+      <p class = aboutMe>I really love doing things outdoors, especially mountain biking, and I also love a great challenge. I moved to Colorado from Illinois in 2012 just to do more competitve mountain biking. I was passionate about that for a long time but it's never really turned into a way to make a living, but that's ok, I love it too much to even think of it as work anyway.  I luckily discovered computer programming in 2019 as what I thought would just be a little hobby but my passion, knowledge, and curiosity has only grown and now I am eager to see what's possible with the right resources and people to collaborate with.  </p> 
+      </article>
+      <hr>
+      <!-- This is where the unordered and ordered lists go -->
       <h3>Programming Languages</h3>
       
       
@@ -50,7 +50,7 @@
         <li>HTML/CSS</li>
         <li>JavaScript</li>
       </ol>
-      
+      <hr>
 
       <h3>Hobbies</h3>
       
@@ -60,9 +60,12 @@
         <li>Programming</li>
         <li>Video Games</li>
       </ul>
-      
     
     </main>
-    <!-- needs an image --> 
+    <hr>
+    <!-- Finally add a footer, projected grad date? -->
+    <footer>
+      <p>Projected Graduation from Thinkful Software Engineering Bootcamp: 07/11/2021</p>
+    </footer>
   </body>
 </html>

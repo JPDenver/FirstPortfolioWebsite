@@ -1,27 +1,82 @@
-/*
-Color Pallet from Coolors
-{"Xiketic":"1a1423",
-"Dark Purple":"372549",
-"Twilight Lavender":"774c60",
-"Popstar":"b75d69",
-"Champagne Pink":"eacdc2"}
-*/
+
+/* Color pallette from Coolors */
+/* --oxford-blue: #011638ff;
+--charcoal: #364156ff;
+--light-gray: #cdcdcdff;
+--honeydew: #dff8ebff;
+--british-racing-green: #214e34ff; */
 
 /* MAKE SURE YOU USE SOME DIFFERENT FONTS */
 
+
+/* Styling for my name at the top */
 body header p{
   font-size: 40px;
+  color: #011638;
 }
 
+
+/* Styling for navigation */
 nav{
   text-align: right;
   padding: 10px;
   margin: 10px;
+  
 }
+
+/* pseudo-classes for links */
+a{
+  link: blue;
+  visited: purple;
+  hover: red;
+  active: darkred;
+  
+}
+
+
+/* Adjusting font sizes for titles */
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 30px;
+}
+
+
 
 h1, h2{
   text-align: center;
   font-family: 'Courier New', Courier, monospace;  
+  color: #011638;
+}
+
+
+/* Styling for the image */
+img{
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #364156;
+}
+
+/* Class made to style the paragraph within the about me section */
+.aboutMe{
+  margin: 40px;
+  font-size: 20px;
+}
+
+
+/* Centering for most large text blocks */
+article p, div p{
+  text-align: center;
+}
+
+div p{
+  font-size: 25px;
 }
 
 h3{
@@ -30,32 +85,50 @@ h3{
 }
 
 body{
-  background-color:
+  background: #def8eb;
 }
 
+header{
+  height: 120px;
+  background-color: ;
+  border: 5px solid #214e34 ;
+
+}
+
+/* 
+Colors Again */
+/* --oxford-blue: #011638ff;
+--charcoal: #364156ff;
+--light-gray: #cdcdcdff;
+--honeydew: #dff8eb ff;
+--british-racing-green: #214e34ff; */
 
 
+header p{
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+/* List Stlying */
 ol, ul{
-  width: 50px;
+  font-size: 25px;
+  width: 70pxpx;
   display: table;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
 }
 
-header{
-  height: 75px;
-  background-color: #b75d69;
-
+/* Footer Styling */
+footer p{
+  text-align: center;
 }
 
-header p{
-  margin: 10px;
-  padding: 10px;
-}
-
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+hr{
+  border: 0px;
+  height: 10px;
+  color:#214e34;
+  background-color: #214e34;
+  margin: 20px;
 }
